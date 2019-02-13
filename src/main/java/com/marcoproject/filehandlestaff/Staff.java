@@ -67,7 +67,7 @@ public class Staff {
     
     //Removed the @ symbols in your printToFile method and replaced them with spaces
     public String printTofile(){
-    	return staffNo + "@" + firstName + "@" + lastName + "@" + salary;
+    	return staffNo + " " + firstName + " " + lastName + " " + salary;
     }
 
 }
