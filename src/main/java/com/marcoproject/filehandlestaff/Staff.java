@@ -13,7 +13,13 @@ public class Staff {
 	private String lastName;
 	private double salary;
 
-    public Staff() {
+	//Added variables in your default constructor
+    public Staff()
+    {
+        staffNo = 0;
+        firstName = "";
+        lastName = "";
+        salary = 0.0;
     }
     public Staff(int snum, String fname, String lname, double sal){
 
@@ -54,7 +60,7 @@ public class Staff {
     }
     //Removed the @ symbols in your printToFile method and replaced them with spaces
     public String printTofile(){
-    	return staffNo + " " + firstName + " " + lastName + " " + salary;
+    	return staffNo + "@" + firstName + "@" + lastName + "@" + salary;
     }
 
 }
