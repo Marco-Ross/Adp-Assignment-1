@@ -64,9 +64,10 @@ public class Staff {
         String out;
         return out = String.format("%-20d%-20s%-20s%-20f", staffNo, firstName, lastName, salary);
     }
+    
     //Removed the @ symbols in your printToFile method and replaced them with spaces
     public String printTofile(){
-    	return staffNo + "@" + firstName + "@" + lastName + "@" + salary;
+    	return staffNo + " " + firstName + " " + lastName + " " + salary;
     }
 
 }
