@@ -11,6 +11,8 @@ import java.io.*;
 
 import org.apache.commons.lang.StringUtils;
 
+////////////////You need to set your own file path for the FileReader and Writer Objects////////////////
+
 public class RunStaff {
     ///////////////////////Version 1///////////////////////
     BufferedReader br;
@@ -131,7 +133,6 @@ public class RunStaff {
                     bw1.write(list.get(i).toString());
                     bw.newLine();
                     bw1.newLine();
-
                 }
             }
             bw.close();
@@ -147,7 +148,6 @@ public class RunStaff {
         } catch (Exception e) {
             e.getMessage();
         }
-
     }
 
     public static void main(String[] args) {
